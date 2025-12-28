@@ -8,8 +8,7 @@ from core.state import AlertState
 INTERVAL = 5
 TIME_WINDOW = 5
 THRESHOLD = 5
-COOLDOWN = 150  # 10 dakika
-
+COOLDOWN = 150  
 state = AlertState(cooldown_seconds=COOLDOWN)
 
 print("🛡️ Mini-SIEM başlatıldı (Ctrl+C ile durdur)")
