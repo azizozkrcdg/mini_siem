@@ -1,0 +1,8 @@
+[
+    {
+        "type": "SSH_BRUTE_FORCE",
+        "ip": "127.0.0.1",
+        "count": 5,
+        "severity": "HIGH"
+    }
+]

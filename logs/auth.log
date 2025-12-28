@@ -1,0 +1,234 @@
+Dec 27 22:01:44 AZZ systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+Dec 27 22:01:44 AZZ sshd[12374]: Server listening on 0.0.0.0 port 22.
+Dec 27 22:01:44 AZZ sshd[12374]: Server listening on :: port 22.
+Dec 27 22:01:44 AZZ systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+Dec 27 22:02:27 AZZ unix_chkpwd[12778]: password check failed for user (root)
+Dec 27 22:02:27 AZZ sshd-session[12744]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=root
+Dec 27 22:02:29 AZZ sshd-session[12744]: Failed password for root from 127.0.0.1 port 33754 ssh2
+Dec 27 22:02:31 AZZ unix_chkpwd[12811]: password check failed for user (root)
+Dec 27 22:02:34 AZZ sshd-session[12744]: Failed password for root from 127.0.0.1 port 33754 ssh2
+Dec 27 22:02:34 AZZ unix_chkpwd[12836]: password check failed for user (root)
+Dec 27 22:02:36 AZZ sshd-session[12744]: Failed password for root from 127.0.0.1 port 33754 ssh2
+Dec 27 22:02:37 AZZ sshd-session[12744]: Connection closed by authenticating user root 127.0.0.1 port 33754 [preauth]
+Dec 27 22:02:37 AZZ sshd-session[12744]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=root
+Dec 27 22:02:44 AZZ unix_chkpwd[12929]: password check failed for user (root)
+Dec 27 22:02:44 AZZ sshd-session[12910]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=root
+Dec 27 22:02:46 AZZ sshd-session[12910]: Failed password for root from 127.0.0.1 port 60656 ssh2
+Dec 27 22:02:47 AZZ unix_chkpwd[12954]: password check failed for user (root)
+Dec 27 22:02:49 AZZ sshd-session[12910]: Failed password for root from 127.0.0.1 port 60656 ssh2
+Dec 27 22:02:50 AZZ sshd-session[12910]: Connection closed by authenticating user root 127.0.0.1 port 60656 [preauth]
+Dec 27 22:02:50 AZZ sshd-session[12910]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=root
+Dec 27 22:04:49 AZZ sshd-session[13997]: Received disconnect from 127.0.0.1 port 41354:11: Bye Bye [preauth]
+Dec 27 22:04:49 AZZ sshd-session[13997]: Disconnected from authenticating user root 127.0.0.1 port 41354 [preauth]
+Dec 27 22:04:50 AZZ unix_chkpwd[14020]: password check failed for user (root)
+Dec 27 22:04:50 AZZ sshd-session[14013]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=root
+Dec 27 22:04:50 AZZ unix_chkpwd[14019]: password check failed for user (root)
+Dec 27 22:04:50 AZZ sshd-session[14011]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=root
+Dec 27 22:04:50 AZZ sshd-session[14015]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=root
+Dec 27 22:04:50 AZZ sshd-session[14012]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=root
+Dec 27 22:04:51 AZZ sshd-session[14012]: Failed password for root from 127.0.0.1 port 41368 ssh2
+Dec 27 22:04:52 AZZ sshd-session[14015]: Failed password for root from 127.0.0.1 port 41396 ssh2
+Dec 27 22:04:52 AZZ sshd-session[14013]: Failed password for root from 127.0.0.1 port 41382 ssh2
+Dec 27 22:04:52 AZZ unix_chkpwd[14039]: password check failed for user (root)
+Dec 27 22:04:52 AZZ sshd-session[14015]: Connection closed by authenticating user root 127.0.0.1 port 41396 [preauth]
+Dec 27 22:04:52 AZZ sshd-session[14012]: Connection closed by authenticating user root 127.0.0.1 port 41368 [preauth]
+Dec 27 22:04:52 AZZ sshd-session[14011]: Failed password for root from 127.0.0.1 port 41358 ssh2
+Dec 27 22:04:54 AZZ sshd-session[14011]: Connection closed by authenticating user root 127.0.0.1 port 41358 [preauth]
+Dec 27 22:04:54 AZZ sshd-session[14013]: Failed password for root from 127.0.0.1 port 41382 ssh2
+Dec 27 22:04:57 AZZ sshd-session[14013]: Connection closed by authenticating user root 127.0.0.1 port 41382 [preauth]
+Dec 27 22:04:57 AZZ sshd-session[14013]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=root
+Dec 27 22:05:10 AZZ sshd-session[14193]: Received disconnect from 127.0.0.1 port 35814:11: Bye Bye [preauth]
+Dec 27 22:05:10 AZZ sshd-session[14193]: Disconnected from authenticating user root 127.0.0.1 port 35814 [preauth]
+Dec 27 22:05:10 AZZ sshd-session[14200]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=root
+Dec 27 22:05:10 AZZ unix_chkpwd[14208]: password check failed for user (root)
+Dec 27 22:05:10 AZZ sshd-session[14201]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=root
+Dec 27 22:05:10 AZZ unix_chkpwd[14209]: password check failed for user (root)
+Dec 27 22:05:10 AZZ sshd-session[14199]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=root
+Dec 27 22:05:10 AZZ unix_chkpwd[14210]: password check failed for user (root)
+Dec 27 22:05:10 AZZ sshd-session[14203]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=root
+Dec 27 22:05:12 AZZ sshd-session[14199]: Failed password for root from 127.0.0.1 port 35820 ssh2
+Dec 27 22:05:12 AZZ sshd-session[14200]: Failed password for root from 127.0.0.1 port 35828 ssh2
+Dec 27 22:05:13 AZZ sshd-session[14199]: Connection closed by authenticating user root 127.0.0.1 port 35820 [preauth]
+Dec 27 22:05:13 AZZ sshd-session[14203]: Failed password for root from 127.0.0.1 port 35852 ssh2
+Dec 27 22:05:13 AZZ sshd-session[14201]: Failed password for root from 127.0.0.1 port 35844 ssh2
+Dec 27 22:05:15 AZZ sshd-session[14201]: Connection closed by authenticating user root 127.0.0.1 port 35844 [preauth]
+Dec 27 22:05:15 AZZ sshd-session[14203]: Connection closed by authenticating user root 127.0.0.1 port 35852 [preauth]
+Dec 27 22:05:15 AZZ sshd-session[14200]: Failed password for root from 127.0.0.1 port 35828 ssh2
+Dec 27 22:05:17 AZZ sshd-session[14200]: Connection closed by authenticating user root 127.0.0.1 port 35828 [preauth]
+Dec 27 22:05:17 AZZ sshd-session[14200]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=root
+Dec 27 22:05:17 AZZ sshd[12374]: srclimit_penalise: 127.0.0.1/32: activating ipv4 penalty of 16 seconds for penalty: failed authentication
+Dec 27 22:06:27 AZZ sshd-session[14901]: Received disconnect from 127.0.0.1 port 52292:11: Bye Bye [preauth]
+Dec 27 22:06:27 AZZ sshd-session[14901]: Disconnected from authenticating user root 127.0.0.1 port 52292 [preauth]
+Dec 27 22:06:27 AZZ unix_chkpwd[14923]: password check failed for user (root)
+Dec 27 22:06:27 AZZ sshd-session[14916]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=root
+Dec 27 22:06:27 AZZ sshd-session[14915]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=root
+Dec 27 22:06:27 AZZ unix_chkpwd[14925]: password check failed for user (root)
+Dec 27 22:06:27 AZZ sshd-session[14918]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=root
+Dec 27 22:06:27 AZZ sshd-session[14917]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=root
+Dec 27 22:06:29 AZZ sshd-session[14916]: Failed password for root from 127.0.0.1 port 52308 ssh2
+Dec 27 22:06:29 AZZ sshd-session[14917]: Failed password for root from 127.0.0.1 port 52336 ssh2
+Dec 27 22:06:29 AZZ sshd-session[14918]: Failed password for root from 127.0.0.1 port 52344 ssh2
+Dec 27 22:06:29 AZZ unix_chkpwd[14945]: password check failed for user (root)
+Dec 27 22:06:30 AZZ sshd-session[14915]: Failed password for root from 127.0.0.1 port 52310 ssh2
+Dec 27 22:06:32 AZZ sshd-session[14917]: Failed password for root from 127.0.0.1 port 52336 ssh2
+Dec 27 22:06:32 AZZ sshd-session[14918]: Failed password for root from 127.0.0.1 port 52344 ssh2
+Dec 27 22:06:32 AZZ unix_chkpwd[14970]: password check failed for user (root)
+Dec 27 22:06:32 AZZ sshd-session[14916]: Failed password for root from 127.0.0.1 port 52308 ssh2
+Dec 27 22:06:33 AZZ sshd-session[14915]: Failed password for root from 127.0.0.1 port 52310 ssh2
+Dec 27 22:06:34 AZZ sshd-session[14917]: Failed password for root from 127.0.0.1 port 52336 ssh2
+Dec 27 22:06:34 AZZ unix_chkpwd[15010]: password check failed for user (root)
+Dec 27 22:06:34 AZZ sshd-session[14915]: Failed password for root from 127.0.0.1 port 52310 ssh2
+Dec 27 22:06:34 AZZ unix_chkpwd[15013]: password check failed for user (root)
+Dec 27 22:06:35 AZZ sshd-session[14917]: Failed password for root from 127.0.0.1 port 52336 ssh2
+Dec 27 22:06:35 AZZ sshd-session[14916]: Failed password for root from 127.0.0.1 port 52308 ssh2
+Dec 27 22:06:36 AZZ sshd-session[14918]: Failed password for root from 127.0.0.1 port 52344 ssh2
+Dec 27 22:06:36 AZZ unix_chkpwd[15046]: password check failed for user (root)
+Dec 27 22:06:36 AZZ unix_chkpwd[15047]: password check failed for user (root)
+Dec 27 22:06:36 AZZ sshd-session[14915]: Failed password for root from 127.0.0.1 port 52310 ssh2
+Dec 27 22:06:38 AZZ sshd-session[14916]: Failed password for root from 127.0.0.1 port 52308 ssh2
+Dec 27 22:06:38 AZZ unix_chkpwd[15080]: password check failed for user (root)
+Dec 27 22:06:39 AZZ sshd-session[14917]: Failed password for root from 127.0.0.1 port 52336 ssh2
+Dec 27 22:06:39 AZZ sshd-session[14918]: Failed password for root from 127.0.0.1 port 52344 ssh2
+Dec 27 22:06:40 AZZ sshd-session[14915]: Failed password for root from 127.0.0.1 port 52310 ssh2
+Dec 27 22:06:41 AZZ sshd-session[14916]: Failed password for root from 127.0.0.1 port 52308 ssh2
+Dec 27 22:06:41 AZZ unix_chkpwd[15113]: password check failed for user (root)
+Dec 27 22:06:43 AZZ sshd-session[14917]: Failed password for root from 127.0.0.1 port 52336 ssh2
+Dec 27 22:06:43 AZZ sshd-session[14916]: Failed password for root from 127.0.0.1 port 52308 ssh2
+Dec 27 22:06:43 AZZ sshd-session[14916]: error: maximum authentication attempts exceeded for root from 127.0.0.1 port 52308 ssh2 [preauth]
+Dec 27 22:06:43 AZZ sshd-session[14916]: Disconnecting authenticating user root 127.0.0.1 port 52308: Too many authentication failures [preauth]
+Dec 27 22:06:43 AZZ sshd-session[14916]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=root
+Dec 27 22:06:43 AZZ sshd-session[14916]: PAM service(sshd) ignoring max retries; 6 > 3
+Dec 27 22:06:43 AZZ sshd-session[14917]: error: maximum authentication attempts exceeded for root from 127.0.0.1 port 52336 ssh2 [preauth]
+Dec 27 22:06:43 AZZ sshd-session[14917]: Disconnecting authenticating user root 127.0.0.1 port 52336: Too many authentication failures [preauth]
+Dec 27 22:06:43 AZZ sshd-session[14917]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=root
+Dec 27 22:06:43 AZZ sshd-session[14917]: PAM service(sshd) ignoring max retries; 6 > 3
+Dec 27 22:06:43 AZZ unix_chkpwd[15162]: password check failed for user (root)
+Dec 27 22:06:43 AZZ sshd-session[15158]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=root
+Dec 27 22:06:43 AZZ sshd-session[14918]: Failed password for root from 127.0.0.1 port 52344 ssh2
+Dec 27 22:06:43 AZZ unix_chkpwd[15163]: password check failed for user (root)
+Dec 27 22:06:43 AZZ sshd-session[15160]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=root
+Dec 27 22:06:43 AZZ sshd-session[14915]: Failed password for root from 127.0.0.1 port 52310 ssh2
+Dec 27 22:06:44 AZZ sshd-session[15160]: Failed password for root from 127.0.0.1 port 36336 ssh2
+Dec 27 22:06:45 AZZ sshd-session[14915]: error: maximum authentication attempts exceeded for root from 127.0.0.1 port 52310 ssh2 [preauth]
+Dec 27 22:06:45 AZZ sshd-session[14915]: Disconnecting authenticating user root 127.0.0.1 port 52310: Too many authentication failures [preauth]
+Dec 27 22:06:45 AZZ sshd-session[14915]: PAM 4 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=root
+Dec 27 22:06:45 AZZ sshd-session[14915]: PAM service(sshd) ignoring max retries; 5 > 3
+Dec 27 22:06:45 AZZ unix_chkpwd[15182]: password check failed for user (root)
+Dec 27 22:06:45 AZZ unix_chkpwd[15183]: password check failed for user (root)
+Dec 27 22:06:45 AZZ sshd-session[15180]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=root
+Dec 27 22:06:45 AZZ sshd-session[15158]: Failed password for root from 127.0.0.1 port 36320 ssh2
+Dec 27 22:06:47 AZZ sshd-session[15180]: Failed password for root from 127.0.0.1 port 41366 ssh2
+Dec 27 22:06:47 AZZ sshd-session[15160]: Failed password for root from 127.0.0.1 port 36336 ssh2
+Dec 27 22:06:47 AZZ sshd-session[14918]: Failed password for root from 127.0.0.1 port 52344 ssh2
+Dec 27 22:06:47 AZZ sshd-session[14918]: error: maximum authentication attempts exceeded for root from 127.0.0.1 port 52344 ssh2 [preauth]
+Dec 27 22:06:47 AZZ sshd-session[14918]: Disconnecting authenticating user root 127.0.0.1 port 52344: Too many authentication failures [preauth]
+Dec 27 22:06:47 AZZ sshd-session[14918]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=root
+Dec 27 22:06:47 AZZ sshd-session[14918]: PAM service(sshd) ignoring max retries; 6 > 3
+Dec 27 22:06:48 AZZ unix_chkpwd[15204]: password check failed for user (root)
+Dec 27 22:06:48 AZZ unix_chkpwd[15205]: password check failed for user (root)
+Dec 27 22:06:48 AZZ unix_chkpwd[15206]: password check failed for user (root)
+Dec 27 22:06:48 AZZ sshd-session[15201]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=root
+Dec 27 22:06:49 AZZ sshd-session[15201]: Failed password for root from 127.0.0.1 port 41368 ssh2
+Dec 27 22:06:49 AZZ sshd-session[15160]: Failed password for root from 127.0.0.1 port 36336 ssh2
+Dec 27 22:06:50 AZZ sshd-session[15158]: Failed password for root from 127.0.0.1 port 36320 ssh2
+Dec 27 22:06:50 AZZ unix_chkpwd[15225]: password check failed for user (root)
+Dec 27 22:06:50 AZZ sshd-session[15180]: Failed password for root from 127.0.0.1 port 41366 ssh2
+Dec 27 22:06:52 AZZ sshd-session[15201]: Failed password for root from 127.0.0.1 port 41368 ssh2
+Dec 27 22:06:52 AZZ unix_chkpwd[15253]: password check failed for user (root)
+Dec 27 22:06:52 AZZ sshd-session[15160]: Failed password for root from 127.0.0.1 port 36336 ssh2
+Dec 27 22:06:52 AZZ sshd-session[15158]: Failed password for root from 127.0.0.1 port 36320 ssh2
+Dec 27 22:06:54 AZZ sshd-session[15201]: Failed password for root from 127.0.0.1 port 41368 ssh2
+Dec 27 22:06:54 AZZ sshd-session[15180]: Failed password for root from 127.0.0.1 port 41366 ssh2
+Dec 27 22:06:54 AZZ unix_chkpwd[15272]: password check failed for user (root)
+Dec 27 22:06:54 AZZ unix_chkpwd[15273]: password check failed for user (root)
+Dec 27 22:06:54 AZZ unix_chkpwd[15274]: password check failed for user (root)
+Dec 27 22:06:54 AZZ unix_chkpwd[15275]: password check failed for user (root)
+Dec 27 22:06:56 AZZ sshd-session[15201]: Failed password for root from 127.0.0.1 port 41368 ssh2
+Dec 27 22:06:56 AZZ sshd-session[15180]: Failed password for root from 127.0.0.1 port 41366 ssh2
+Dec 27 22:06:56 AZZ sshd-session[15160]: Failed password for root from 127.0.0.1 port 36336 ssh2
+Dec 27 22:06:57 AZZ sshd-session[15158]: Failed password for root from 127.0.0.1 port 36320 ssh2
+Dec 27 22:06:57 AZZ unix_chkpwd[15302]: password check failed for user (root)
+Dec 27 22:06:57 AZZ unix_chkpwd[15303]: password check failed for user (root)
+Dec 27 22:06:57 AZZ unix_chkpwd[15304]: password check failed for user (root)
+Dec 27 22:06:57 AZZ unix_chkpwd[15305]: password check failed for user (root)
+Dec 27 22:06:58 AZZ sshd-session[15158]: Failed password for root from 127.0.0.1 port 36320 ssh2
+Dec 27 22:06:58 AZZ sshd-session[15201]: Failed password for root from 127.0.0.1 port 41368 ssh2
+Dec 27 22:06:59 AZZ sshd-session[15160]: Failed password for root from 127.0.0.1 port 36336 ssh2
+Dec 27 22:06:59 AZZ unix_chkpwd[15323]: password check failed for user (root)
+Dec 27 22:06:59 AZZ sshd-session[15160]: error: maximum authentication attempts exceeded for root from 127.0.0.1 port 36336 ssh2 [preauth]
+Dec 27 22:06:59 AZZ sshd-session[15160]: Disconnecting authenticating user root 127.0.0.1 port 36336: Too many authentication failures [preauth]
+Dec 27 22:06:59 AZZ sshd-session[15160]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=root
+Dec 27 22:06:59 AZZ sshd-session[15160]: PAM service(sshd) ignoring max retries; 6 > 3
+Dec 27 22:06:59 AZZ sshd-session[15180]: Failed password for root from 127.0.0.1 port 41366 ssh2
+Dec 27 22:06:59 AZZ unix_chkpwd[15334]: password check failed for user (root)
+Dec 27 22:06:59 AZZ unix_chkpwd[15335]: password check failed for user (root)
+Dec 27 22:06:59 AZZ sshd-session[15325]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=root
+Dec 27 22:07:01 AZZ sshd-session[15158]: Failed password for root from 127.0.0.1 port 36320 ssh2
+Dec 27 22:07:01 AZZ sshd-session[15325]: Failed password for root from 127.0.0.1 port 46770 ssh2
+Dec 27 22:07:01 AZZ sshd-session[15201]: Failed password for root from 127.0.0.1 port 41368 ssh2
+Dec 27 22:07:01 AZZ sshd-session[15158]: error: maximum authentication attempts exceeded for root from 127.0.0.1 port 36320 ssh2 [preauth]
+Dec 27 22:07:01 AZZ sshd-session[15158]: Disconnecting authenticating user root 127.0.0.1 port 36320: Too many authentication failures [preauth]
+Dec 27 22:07:01 AZZ sshd-session[15158]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=root
+Dec 27 22:07:01 AZZ sshd-session[15158]: PAM service(sshd) ignoring max retries; 6 > 3
+Dec 27 22:07:01 AZZ unix_chkpwd[15359]: password check failed for user (root)
+Dec 27 22:07:01 AZZ sshd-session[15201]: error: maximum authentication attempts exceeded for root from 127.0.0.1 port 41368 ssh2 [preauth]
+Dec 27 22:07:01 AZZ sshd-session[15201]: Disconnecting authenticating user root 127.0.0.1 port 41368: Too many authentication failures [preauth]
+Dec 27 22:07:01 AZZ sshd-session[15201]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=root
+Dec 27 22:07:01 AZZ sshd-session[15201]: PAM service(sshd) ignoring max retries; 6 > 3
+Dec 27 22:07:01 AZZ sshd[12374]: srclimit_penalise: 127.0.0.1/32: activating ipv4 penalty of 17 seconds for penalty: failed authentication
+Dec 27 22:07:01 AZZ sshd-session[15357]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=root
+Dec 27 22:07:01 AZZ unix_chkpwd[15363]: password check failed for user (root)
+Dec 27 22:07:01 AZZ sshd-session[15360]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=root
+Dec 27 22:07:02 AZZ sshd-session[15357]: Failed password for root from 127.0.0.1 port 46778 ssh2
+Dec 27 22:07:03 AZZ sshd-session[15180]: Failed password for root from 127.0.0.1 port 41366 ssh2
+Dec 27 22:07:03 AZZ sshd-session[15180]: error: maximum authentication attempts exceeded for root from 127.0.0.1 port 41366 ssh2 [preauth]
+Dec 27 22:07:03 AZZ sshd-session[15180]: Disconnecting authenticating user root 127.0.0.1 port 41366: Too many authentication failures [preauth]
+Dec 27 22:07:03 AZZ sshd[12374]: drop connection #4 from [127.0.0.1]:46808 on [127.0.0.1]:22 penalty: failed authentication
+Dec 27 22:07:03 AZZ sshd-session[15180]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=root
+Dec 27 22:07:03 AZZ sshd-session[15180]: PAM service(sshd) ignoring max retries; 6 > 3
+Dec 27 22:07:03 AZZ unix_chkpwd[15387]: password check failed for user (root)
+Dec 27 22:07:03 AZZ sshd[12374]: drop connection #3 from [127.0.0.1]:46812 on [127.0.0.1]:22 penalty: failed authentication
+Dec 27 22:07:03 AZZ sshd-session[15360]: Failed password for root from 127.0.0.1 port 46794 ssh2
+Dec 27 22:07:04 AZZ sshd-session[15325]: Failed password for root from 127.0.0.1 port 46770 ssh2
+Dec 27 22:07:04 AZZ sshd[12374]: drop connection #3 from [127.0.0.1]:43210 on [127.0.0.1]:22 penalty: failed authentication
+Dec 27 22:07:04 AZZ sshd[12374]: drop connection #3 from [127.0.0.1]:43218 on [127.0.0.1]:22 penalty: failed authentication
+Dec 27 22:07:04 AZZ sshd[12374]: drop connection #3 from [127.0.0.1]:43222 on [127.0.0.1]:22 penalty: failed authentication
+Dec 27 22:07:04 AZZ sshd[12374]: drop connection #3 from [127.0.0.1]:43232 on [127.0.0.1]:22 penalty: failed authentication
+Dec 27 22:07:05 AZZ sshd[12374]: drop connection #3 from [127.0.0.1]:43234 on [127.0.0.1]:22 penalty: failed authentication
+Dec 27 22:07:05 AZZ sshd[12374]: drop connection #3 from [127.0.0.1]:43248 on [127.0.0.1]:22 penalty: failed authentication
+Dec 27 22:07:05 AZZ sshd[12374]: drop connection #3 from [127.0.0.1]:43254 on [127.0.0.1]:22 penalty: failed authentication
+Dec 27 22:07:05 AZZ sshd-session[15357]: Failed password for root from 127.0.0.1 port 46778 ssh2
+Dec 27 22:07:06 AZZ unix_chkpwd[15414]: password check failed for user (root)
+Dec 27 22:07:07 AZZ sshd-session[15325]: Failed password for root from 127.0.0.1 port 46770 ssh2
+Dec 27 22:07:07 AZZ sshd-session[15357]: Failed password for root from 127.0.0.1 port 46778 ssh2
+Dec 27 22:07:08 AZZ sshd-session[15360]: Failed password for root from 127.0.0.1 port 46794 ssh2
+Dec 27 22:07:08 AZZ unix_chkpwd[15441]: password check failed for user (root)
+Dec 27 22:07:08 AZZ unix_chkpwd[15442]: password check failed for user (root)
+Dec 27 22:07:08 AZZ unix_chkpwd[15443]: password check failed for user (root)
+Dec 27 22:07:10 AZZ sshd-session[15357]: Failed password for root from 127.0.0.1 port 46778 ssh2
+Dec 27 22:07:10 AZZ sshd-session[15325]: Failed password for root from 127.0.0.1 port 46770 ssh2
+Dec 27 22:07:10 AZZ unix_chkpwd[15460]: password check failed for user (root)
+Dec 27 22:07:10 AZZ sshd-session[15360]: Failed password for root from 127.0.0.1 port 46794 ssh2
+Dec 27 22:07:12 AZZ sshd-session[15357]: Failed password for root from 127.0.0.1 port 46778 ssh2
+Dec 27 22:07:12 AZZ unix_chkpwd[15478]: password check failed for user (root)
+Dec 27 22:07:12 AZZ unix_chkpwd[15479]: password check failed for user (root)
+Dec 27 22:07:13 AZZ sshd-session[15325]: Failed password for root from 127.0.0.1 port 46770 ssh2
+Dec 27 22:07:14 AZZ sshd-session[15360]: Failed password for root from 127.0.0.1 port 46794 ssh2
+Dec 27 22:07:15 AZZ unix_chkpwd[15496]: password check failed for user (root)
+Dec 27 22:07:15 AZZ unix_chkpwd[15497]: password check failed for user (root)
+Dec 27 22:07:15 AZZ sshd-session[15357]: Failed password for root from 127.0.0.1 port 46778 ssh2
+Dec 27 22:07:16 AZZ sshd-session[15360]: Failed password for root from 127.0.0.1 port 46794 ssh2
+Dec 27 22:07:16 AZZ sshd-session[15325]: Failed password for root from 127.0.0.1 port 46770 ssh2
+Dec 27 22:07:17 AZZ sshd-session[15357]: error: maximum authentication attempts exceeded for root from 127.0.0.1 port 46778 ssh2 [preauth]
+Dec 27 22:07:17 AZZ sshd-session[15357]: Disconnecting authenticating user root 127.0.0.1 port 46778: Too many authentication failures [preauth]
+Dec 27 22:07:17 AZZ sshd-session[15357]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=root
+Dec 27 22:07:17 AZZ sshd-session[15357]: PAM service(sshd) ignoring max retries; 6 > 3
+Dec 27 22:07:17 AZZ sshd-session[15325]: error: maximum authentication attempts exceeded for root from 127.0.0.1 port 46770 ssh2 [preauth]
+Dec 27 22:07:17 AZZ sshd-session[15325]: Disconnecting authenticating user root 127.0.0.1 port 46770: Too many authentication failures [preauth]
+Dec 27 22:07:17 AZZ sshd-session[15325]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=root
+Dec 27 22:07:17 AZZ sshd-session[15325]: PAM service(sshd) ignoring max retries; 6 > 3
+Dec 27 22:07:20 AZZ sshd-session[15360]: Failed password for root from 127.0.0.1 port 46794 ssh2
+Dec 27 22:07:22 AZZ sshd-session[15360]: error: maximum authentication attempts exceeded for root from 127.0.0.1 port 46794 ssh2 [preauth]
+Dec 27 22:07:22 AZZ sshd-session[15360]: Disconnecting authenticating user root 127.0.0.1 port 46794: Too many authentication failures [preauth]
+Dec 27 22:07:22 AZZ sshd-session[15360]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=root
+Dec 27 22:07:22 AZZ sshd-session[15360]: PAM service(sshd) ignoring max retries; 6 > 3
